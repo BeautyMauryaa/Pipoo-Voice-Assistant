@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local user data
+pipoo_notes.json
+pipoo_reminders.json
+
+# OS/editor files
+.DS_Store
+.vscode/
