@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ### 3. Configure environment variables
 
-Create a `.env` file in the repository root:
+Copy `.env.example` to `.env` in the repository root, then replace the placeholder with your own key.
 
 ```env
 GEMINI_API_KEY=your_gemini_api_key
@@ -67,7 +67,7 @@ SPEECH_RATE=170
 VOICE_GENDER=female
 ```
 
-Use your own API key, keep `.env` private, and never commit real credentials.
+Keep `.env` private and never commit real credentials. The example file is safe to commit; your real key is not.
 
 ### 4. Run Pipoo
 
